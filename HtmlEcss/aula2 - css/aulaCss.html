@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula2 - css</title>
+    <style>
+        p{
+            /* muda a cor da fonte */
+            color: rgb(0, 110, 206);
+            /* muda tamanho da fonte */
+            font-size: 14pt;
+            /* muda a familia da fonte */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            /* muda a cor de fundo de um elemento */
+            background-color: rgb(197, 197, 197);
+        }
+
+        body{
+            background-color: rgb(229, 229, 229);
+        }
+
+        .sublinhado{
+            text-decoration: underline;
+            background-color: aliceblue;
+        }
+
+        #tituloPrincipal{
+           font-size: 40pt;
+           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           text-align: center;
+        }
+
+        img{
+            /* largura */
+            width: 400px;
+            /* altura */
+            height: auto;
+            /* border = espessura, tipo e cor */
+            border: 5px solid black;
+            /* border radius = quanto arredonda */
+            border-radius: 100% ;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="tituloPrincipal">UM ARTIGO SUPER INTERESSANTE!</h1>
+    <h1>Artigo escrito por Victor!</h1>
+    <p>Lorem ipsum, dolor <span class="sublinhado"> sit amet </span> consectetur adipisicing elit. Molestiae quia nesciunt animi eveniet consectetur in minima earum fuga, cum velit quod fugit et nostrum aperiam accusantium maxime, sit rerum debitis.</p>
+    <p>Lorem ipsum dolor sit amet <span class="sublinhado"> consectetur </span> adipisicing elit. Itaque sint provident eius rem repellendus praesentium eos, fugit quam reiciendis cumque magni et nisi, atque dolor distinctio tempora quae nam quibusdam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla, corrupti natus iste omnis soluta reprehenderit similique rem pariatur tenetur accusantium fuga illum, labore dicta minus quia? Earum, tempora ducimus.</p>
+    <p style="color: purple;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem nemo debitis dicta facere quaerat, blanditiis enim officia voluptas asperiores, deserunt corporis similique quas! Porro eius assumenda natus sequi ab?</p>
+
+    <img src="paisagem.jpg" alt="Uma paisagem com colinas">
+    <img src="paisagem2.jpg" alt="Um vale com uma montanha nevada">
+</body>
+</html>
