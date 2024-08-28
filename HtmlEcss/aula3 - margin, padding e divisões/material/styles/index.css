@@ -1,0 +1,26 @@
+/* configuração geral */
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(225, 225, 225);
+}
+
+#cabecalho{
+    width: 100%;
+    background-color: cornflowerblue ;
+    color: white;
+}
+
+#artigo{
+    width: 50%;
+    background-color: white;
+    /* margin - margem externa ao elemento */
+    margin: 20px;
+    /* padding - margem interna ao elemento */
+    padding: 20px;
+    border: 1px solid black;
+}
