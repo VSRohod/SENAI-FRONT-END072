@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.pai{
+    width: 300px;
+    padding: 20px;
+    background-color: cadetblue;
+    display: flex;
+    /* linha - row */
+    /* coluna - column*/
+    /* reverse - reverso */
+    /* flex-direction = mudamos a orientação do flex */
+    flex-direction: row;
+    /* end  - fim */
+    /* start - começo */
+    /* space-around - jogar o elementos para a extremidade deixando um espaço */
+    /* space-between - jogar os elementos para a extremidade */
+    /* space-evenly - jogar os elementos mais para o centro deixando os espaços */
+    /* strech - esticar o elemento */
+    justify-content: space-between;
+    align-items: end;
+    height: 500px;
+}
+
+#pai2{
+    height: auto;
+    justify-content: start;
+    align-items: start;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#pai2 .filho{
+    margin: 0px;
+}
+
+.filho{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background-color: azure;
+}
