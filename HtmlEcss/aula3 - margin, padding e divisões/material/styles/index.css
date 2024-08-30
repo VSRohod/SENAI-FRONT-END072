@@ -18,9 +18,20 @@ body{
 #artigo{
     width: 50%;
     background-color: white;
-    /* margin - margem externa ao elemento */
+    /* margin - margem externa ao elemento em todos os lados */
     margin: 20px;
+    /* left - esquerda, right - direita, top - topo, bottom - baixo */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* margin: 20px 5px 1px 8px;*/
+    /*  1 valor = todos os lados  */
+    /*  2 valores = em cima e embaixo  */
+    /*  4 valores = em cima, direita, embaixo e esquerda (sentido horario)  */
+
     /* padding - margem interna ao elemento */
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: black 5px 5px;
     border: 1px solid black;
 }
