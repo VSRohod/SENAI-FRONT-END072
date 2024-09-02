@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header,footer{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: rgb(118, 158, 234);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+   align-items: center;
+   flex-direction: column; 
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+main{
+    width: 90%;
+    box-shadow: 5px 5px 5px rgb(223, 223, 223);
+    margin: 10px auto;
+    padding: 5px;
+}
+
+h2,h4{
+    text-align: center;
+    color: blueviolet;
+}
+
+#novidades ul{
+    background-color: rgb(104, 156, 246);
+    width: 80%;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.livro{
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(63, 162, 233);
+    margin: 10px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+footer li{
+    background-color: aliceblue;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: blueviolet;
+}
