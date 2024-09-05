@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 9</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header></header>
+
+
+
+    <main>
+        <form action="#" method="post">
+            <label for="nome">Digite o seu nome:</label>
+            <input id="nome" disabled value="Victor Santos Rohod" type="text">
+
+            <label for="email">Digite o seu email:</label>
+            <input id="email" placeholder="nomeusuario@aluno.senai.br" required type="email">
+
+            <label for="senha">Digite a sua senha:</label>
+            <input id="senha" maxlength="8" type="password">
+
+            <label for="aceitarTermos">Aceita os termos?</label>
+            <input type="checkbox" id="aceitarTermos">
+
+            <label for="nascimento">Qual é a data de nascimento?</label>
+            <input type="date" id="nascimento">
+
+            <label for="nMatricula">Qual é o número de matrícula?</label>
+            <input type="number" step="2" max="100" min="1" id="nMatricula">
+
+            <label for="localizacao">Qual estado você mora?</label>
+            <select id="localizacao">
+                <option value="-"> - </option>
+                <option value="DF">DF</option>
+                <option value="SP">SP</option>
+                <option value="GO">GO</option>
+                <option value="MG">MG</option>
+            </select>
+
+            <label for="raca">Qual cor</label>
+            
+            <label for="branco">Branco</label>
+            <input id="branco" name="raca" type="radio">
+
+            <label for="indio">Indio</label>
+            <input id="indio" name="raca" type="radio">
+
+            <label for="amarelo">Amarelo</label>
+            <input id="amarelo" name="raca" type="radio">
+
+            <label for="bio">Descreva sobre você</label>
+            <textarea rows="20" cols="100" id="bio"></textarea>
+
+            <button type="submit"> CADASTRAR </button>
+            <button type="reset"> LIMPAR FORMULÁRIO </button>
+        </form>
+    </main>
+
+
+
+
+    <footer></footer>
+</body>
+</html>
