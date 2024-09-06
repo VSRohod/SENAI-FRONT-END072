@@ -85,3 +85,33 @@ main{
     align-items: center;
     gap: 5px;
 }
+
+/* + um elemento acompanhado ex */
+/* <h1> */
+/* <p> */
+
+/* > um elemento filho ex */
+/* <h1> */
+/* <p></p> */
+/* </h1> */
+
+h1:has(+ p){
+    color: blueviolet;
+}
+
+/* NOT exclusão da condição */
+p:not(.preco){
+    color: rgb(120, 120, 120);
+}
+
+h1::after{
+    content: " 😀 ";
+}
+
+h1::before{
+    content: " 🐾 ";
+}
+
+::placeholder{
+    color: rgb(255, 174, 0);
+}
