@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <main>
+        <h2>LISTA DE ALUNOS</h2>
+        <table>
+            <!-- table row -->
+            <thead>
+                <tr>
+                    <!-- table heading -->
+                    <th></th>
+                    <th> Alunos </th>
+                    <th> Notas </th>
+                </tr>
+            </thead>
+            
+            <tr>
+                <th> 1 </th>
+                <!-- table data -->
+                <td> Alex </td>
+                <td> 10 </td>
+            </tr>
+            <tr>
+                <th> 2 </th>
+                <td> Beatriz </td>
+                <td> 8 </td>
+            </tr>
+            <tr>
+                <th> 3 </th>
+                <td> Carlos </td>
+                <td> 7 </td>
+            </tr>
+            <tr>
+                <th> 4 </th>
+                <td> Diego </td>
+                <td> 3 </td>
+            </tr>
+            <tr>
+                <th> 5 </th>
+                <td> Eustaquio </td>
+                <td> 4 </td>
+            </tr>
+            <tr>
+                <th> 6 </th>
+                <td> Flamarion </td>
+                <td> 9 </td>
+            </tr>
+            <tr>
+                <th> 7 </th>
+                <td> Gustavo </td>
+                <td> 3 </td>
+            </tr>
+            <tr>
+                <th> 8 </th>
+                <td> Hugo </td>
+                <td> 6 </td>
+            </tr>
+            <tr>
+                <th> 9 </th>
+                <td> Bruno </td>
+                <td> 10 </td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <h2>LISTA DE PROFESSORES</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th> Nome </th>
+                    <th> Área técnica </th>
+                    <th> Matrícula </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th> 1 </th>
+                    <td> Victor Santos </td>
+                    <td> Desenvolvimento / TI </td>
+                    <td> 18036 </td>
+                </tr>
+                <tr>
+                    <th> 2 </th>
+                    <td> Alessandra </td>
+                    <td> Confeitaria </td>
+                    <td> 19321 </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <!-- rowspan - expande para mais de uma linha -->
+                    <!-- colspan - expande para mais de uma coluna -->
+                    <th colspan="3">Numero de instrutores</th>
+                    <td> 2 </td>
+                </tr>
+            </tfoot>
+        </table>
+        <div id="conteudoEspaco"></div>
+
+    </main>
+</body>
+</html>
