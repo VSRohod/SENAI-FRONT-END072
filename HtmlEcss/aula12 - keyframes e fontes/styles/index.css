@@ -1,0 +1,59 @@
+@keyframes teste {
+    0%{
+        background-color: var(--cor1);
+    }
+    50%{
+        background-color: var(--cor2);
+    }
+    100%{
+        background-color: var(--cor3);
+        padding: 10px;
+    }
+}
+
+#animado{
+    width: 100px;
+    height: 100px;
+    background-color: var(--cor4);    
+}
+
+#animado:hover{
+    animation-name: teste ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@font-face {
+    font-family: ka_blam;
+    src: url(../fonts/ka_blam/Ka\ Blam.ttf);
+}
+
+@font-face {
+    font-family: Roboto ;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto ;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Roboto , 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2,h3,h4{
+    font-family: "Poppins" ;
+    font-weight: bold;
+}
+
+:root{
+    --cor1 : red ;
+    --cor2 : green ;
+    --cor3 : gray ;
+    --cor4 : blue ;
+    --branco : rgb(232, 234, 234) ;
+}
