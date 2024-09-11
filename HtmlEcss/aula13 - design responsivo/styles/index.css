@@ -62,8 +62,15 @@ main{
    header{
     flex-direction: column;
    }
-   
+
    nav ul{
     flex-direction: column;
    }
 }
+
+@media print {
+    body{
+        color: red;
+    }
+}
+
