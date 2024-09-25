@@ -1,0 +1,11 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.elementos{
+    padding: 20px;
+    background-color: cadetblue;
+    color: white;
+    margin: 20px;
+}
