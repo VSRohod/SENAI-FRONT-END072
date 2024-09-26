@@ -1,0 +1,102 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Old Standard TT", system-ui;
+}
+
+:root{
+    --primaria : rgb(0, 132, 255) ;
+    --branco : rgb(221, 221, 221) ;
+    --preto : rgb(51, 51, 51) ;
+    --pretoTransparent : rgba(29, 29, 29, 0.74) ;
+}
+
+hr{
+    width: 80%;
+    border: 5px solid var(--primaria);
+    border-radius: 5px;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+}
+
+button{
+    background-color: var(--primaria);
+    color: var(--branco);
+    border: 2px solid var(--branco);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section, header , footer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    padding: 20px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+    justify-content: space-around;
+    padding: 20px 0px;
+    background-color: var(--pretoTransparent);
+    margin: 20px auto;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 14pt;
+}
+
+.catalog{
+    flex-direction: row;
+    gap: 20px;
+}
+
+.books{
+    width: 200px;
+    height: 500px;
+    padding: 10px;
+    overflow-y: hidden;
+    box-shadow: 5px 5px 20px var(--pretoTransparent);
+    border-radius: 5px;
+}
+
+.booksDesc{
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.booksImg{
+    width: 100%;
+}
+
+
+footer{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: var(--preto);
+    color: var(--branco);
+}

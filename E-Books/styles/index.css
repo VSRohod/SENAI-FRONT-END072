@@ -1,0 +1,65 @@
+#banner{
+    width: 100%;
+    height: 100vh;
+    padding: 0%;
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#banner h1, #promotionBook h1{
+    color: var(--branco);
+    background-color: var(--primaria);
+    padding: 10px;
+    font-size: 40pt;
+}
+
+#banner button{
+    margin-bottom: 20px;
+}
+
+
+#intro{
+    gap: 10px;
+}
+
+#aboutBook{
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+#deviceMobile{
+    width: 100px;
+    height: 216px;
+    background-image: url(../images/livros/percy1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#deviceMobile img{
+    width: 100%;
+    height: 100%;
+}
+
+#promotion{
+    gap: 10px;
+}
+
+#promotionBook{
+    width: 80%;
+    height: 500px;
+    background-image: url(../images/bannerPromoção.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
