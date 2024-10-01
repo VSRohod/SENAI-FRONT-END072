@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viagens senai</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <!-- css pessoal -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body data-bs-theme="dark">
+    <header>
+        <!-- navegação -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Viagens Senai</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <button id="btnTema" class="btn btn-outline-light mx-2" type="button">
+                            <img id="btnTemaImg" src="images/icons/sun-fill.svg" alt="">
+                        </button>
+                    </form>
+                </div>
+            </div>
+          </nav>
+    </header>
+
+    <main class="p-3 my-3 container">
+        <h1>TODOS OS PACOTES DE VIAGEM</h1>
+        <section id="catalogo"></section>
+    </main>
+
+    <footer></footer>
+
+    <!-- Bootrap -->
+     <script src="scripts/bootstrap.bundle.js"></script>
+    <!-- js pessoal -->
+    <script src="scripts/script.js"></script>
+    <script src="scripts/pacotes.js"></script>
+</body>
+</html>
