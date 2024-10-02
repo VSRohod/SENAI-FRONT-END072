@@ -20,7 +20,7 @@ todosPacotes.forEach(cadaPacote => {
                 <p class="card-text">${cadaPacote.descricao}</p>
                 <p class="card-text">${cadaPacote.preco}</p>
                 <p class="card-text">${cadaPacote.pacotes}</p>
-                <a href="#" class="btn btn-primary">COMPRAR PACOTE</a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#sobrePacote" class="btn btn-primary">COMPRAR PACOTE</a>
             </div>
         </div>
     `
