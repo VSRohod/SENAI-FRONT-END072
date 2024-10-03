@@ -21,3 +21,16 @@ $('#teste3').on('click',function(){
         $('#caixa').toggleClass('segundoEstado','primeiroEstado')
     }
 })
+
+$('#teste4').on('click',function(){
+    // $('#caixa').slideToggle(500)
+    // $('#caixa').hide(500)
+    $('#caixa').fadeOut(500)
+})
+
+$('#teste5').on('click',function(){
+    // $('#caixa').slideToggle(500)
+    // $('#caixa').show(500)
+    $('#caixa').fadeIn(500)
+})
+
